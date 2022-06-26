@@ -1,0 +1,15 @@
+type: edu
+custom_name: stage1
+files:
+- name: test/ReadabilityTest.java
+  visible: true
+  learner_created: true
+- name: src/readability/Main.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/projects/39/stages/205/implement#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 25 Jun 2022 19:30:17 UTC
+record: 1
