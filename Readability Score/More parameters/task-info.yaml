@@ -1,17 +1,6 @@
 type: edu
 custom_name: stage4
 files:
-- name: src/readability/Main.java
-  visible: true
-  text: |
-    package readability;
-
-    public class Main {
-        public static void main(String[] args) {
-            System.out.print("Hello world!");
-        }
-    }
-  learner_created: false
 - name: test/ReadabilityTest.java
   visible: false
   text: |
@@ -422,6 +411,17 @@ files:
             }
 
             return CheckResult.correct();
+        }
+    }
+  learner_created: false
+- name: src/readability/Main.java
+  visible: true
+  text: |
+    package readability;
+
+    public class Main {
+        public static void main(String[] args) {
+            System.out.print("Hello world!");
         }
     }
   learner_created: false
